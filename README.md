@@ -1,2 +1,127 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کافه سنتی قصر</title>
+    <style>
+        body {
+            font-family: 'Tahoma', sans-serif;
+            background: linear-gradient(to bottom, #f7e8d0, #d4b996);
+            color: #3e2f1c;
+            padding: 20px;
+            direction: rtl;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.85);
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.2em;
+            margin-bottom: 20px;
+            color: #5c3a21;
+        }
+        .menu-section {
+            margin-bottom: 22px;
+        }
+        .menu-section h2 {
+            font-size: 1.4em;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #e5d0b8;
+            display: inline-block;
+            padding-bottom: 6px;
+            color: #4b3626;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 8px;
+            font-size: 1.05em;
+            padding: 8px 12px;
+            border-radius: 8px;
+        }
+        li::before {
+            content: "•";
+            display: inline-block;
+            width: 18px;
+            color: #b07a3a;
+            margin-left: 8px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 18px;
+            font-size: 0.95em;
+            color: #6b4f36;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>به کافه سنتی قصر خوش آمدید!</h1>
+
+        <div class="menu-section">
+            <h2>نوشیدنی‌های داغ</h2>
+            <ul>
+                <li>قهوه ترک</li>
+                <li>قهوه اسپرسو</li>
+                <li>آمریکانو</li>
+                <li>لاته با طعم وانیل و کارامل</li>
+                <li>چای سنتی ایرانی با زعفران و نبات</li>
+                <li>دمنوش‌های گیاهی (نعناع، به لیمو، گل گاوزبان)</li>
+            </ul>
+        </div>
+
+        <div class="menu-section">
+            <h2>نوشیدنی‌های سرد</h2>
+            <ul>
+                <li>شیک شکلاتی و وانیلی</li>
+                <li>لیمو‌ناد تازه با نعناع</li>
+                <li>آبمیوه‌های طبیعی فصلی</li>
+                <li>موهیتو سنتی</li>
+            </ul>
+        </div>
+
+        <div class="menu-section">
+            <h2>دسرها و شیرینی‌ها</h2>
+            <ul>
+                <li>کیک روز (با طعم‌های متنوع)</li>
+                <li>باقلوا و قطاب سنتی</li>
+                <li>شیرینی‌های خانگی و سنتی</li>
+                <li>کرم کارامل و پاناکوتا</li>
+            </ul>
+        </div>
+
+        <div class="menu-section">
+            <h2>غذاهای سبک و گرم</h2>
+            <ul>
+                <li>سوپ روز</li>
+                <li>سالاد فصل</li>
+                <li>انواع ساندویچ‌ها (جوجه کباب، کالباس خانگی، سبزیجات)</li>
+                <li>خوراک سنتی (کشک بادمجان، کوکو سبزی، کوکو سیب‌زمینی)</li>
+            </ul>
+        </div>
+
+        <div class="menu-section">
+            <h2>پیش‌غذاها و میان‌وعده‌ها</h2>
+            <ul>
+                <li>زیتون پرورده و ترشیجات خانگی</li>
+                <li>آجیل و خشکبار محلی</li>
+                <li>پنیر محلی با سبزیجات تازه</li>
+                <li>کره و عسل طبیعی</li>
+            </ul>
+        </div>
+
+        <footer>کافه سنتی قصر — خوش آمدید</footer>
+    </div>
+</body>
+</html>
 # ghasr-coffee-
 welcome to the ghasr coffe
